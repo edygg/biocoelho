@@ -1,0 +1,86 @@
+
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
+
+body {
+	padding-top: 70px;
+}
+
+nav {
+	box-shadow: 0px 5px 5px #94919F;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: 'Calligraffitti', cursive;
+	text-align: center;
+}
+
+aside {
+	margin-top: 20px;
+	box-shadow: 5px 5px 10px #C7C5CF;
+}
+
+footer {
+	margin-top: 3px;
+}
+
+button {
+	margin: 2px;
+}
+
+.jumbotron {
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #C7C5CF;
+}
+
+.jumbotron > article > h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Calligraffitti', cursive;
+}
+
+.jumbotron > article > p {
+	font-size: 0.8em;
+	text-align: justify;
+}
+
+.navbar-brand {
+	font-family: 'Calligraffitti', cursive;
+	font-size: 2.3em;
+	font-weight: bold;
+	color: black
+}
+
+.navbar-text {
+	font-family: 'Calligraffitti', cursive;
+	font-size: 1.2em;
+}
+
+.carousel-caption {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-inner > .item > img { 
+	height: 500px;
+	width: auto;  
+	margin-left: 165px;
+}
+
+.form-control {
+	margin: 2px;
+}
+
+#books {
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px #C7C5CF;
+}
+
+#comments {
+	margin-top: 20px;
+}
+
+#comments > article {
+	margin-top: 2px;
+}

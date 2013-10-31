@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<title>Biografía Paulo Coelho</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/biocoelho.js"></script>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html">Paulo Coelho</a>
+		</div>
+
+		<p class="navbar-text pull-right">"Cuando quieres alguna cosa, todo el Universo conspira para que la consigas"</p>
+	</nav>
+
+	<section class="col-md-6 col-md-offset-1 jumbotron">
+		<article>
+			<h1>Acerca del autor</h1>
+
+			<p>Paulo Coelho (Río de Janeiro, 1947) nació al mundo literiario como autor teatral. Fue letrista de canciones populares, periodista y guionista de televisión. Con <em>El Peregrino</em> y <em>El Alquimista</em>, Paulo Coelho inición hace más de diez años un camino de éxitos que lo consagraron como uno de loso grandes escritores de nuestro tiempo. Sus obras han sido publicadas en más de cien países, en cincuenta y cuatro idiomas, y han rebasado la cifra de treinta milloes de ejemplares vendidos. Además de recibir prestigiosos premios y menciones internacionales, en 1996 el ministro de cultura francés lo nombró Caballero de las Artes y las Letras. En la actualidad es consejero especial de la UNesco para el programa de convergencia espiritual y diálogos interculturales. En 1999, recibió el precimio Crystal Award, que concdede el Foro Económico Mundial, y la Medalla de Oro de Galicia. En el 2000, le entregaron la prestigiosa distinción Chevalier de l'Order National de la Légion d'Honneur del gobierno francés. Paulo Coelho escribe una columna periodística semanal que se publica en diversos diarios del mundo.</p>
+			<p>En fechas recientes obtuvo el premio Bambi 2001 de Cultura, el más antiguo y famoso de Alemania</p>
+		</article>
+	</section>
+	
+	<aside class="col-md-3 col-md-offset-1 thumbnail">
+		<img src="imgs/paulo-coelho.jpg">
+	</aside>
+
+	<section class="col-md-6 col-md-offset-1">
+		<h2>Libros</h2>
+		<div id="books" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#books" data-slide-to="0" class="active"></li>
+		    <li data-target="#books" data-slide-to="1"></li>
+		    <li data-target="#books" data-slide-to="2"></li>
+		    <li data-target="#books" data-slide-to="3"></li>
+		    <li data-target="#books" data-slide-to="4"></li>
+		    <li data-target="#books" data-slide-to="5"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+		    
+		    <div class="item active">
+		      <img src="imgs/el-alquimista.jpg" title="El Alquimista">
+		      <div class="carousel-caption">
+		       	El Alquimista
+		      </div>
+		    </div>
+		    
+		    <div class="item">
+		      <img src="imgs/a-orillas-del-rio-piedra.jpg" title="A Orillas del Rio Piedra Me Senté y Lloré">
+		      <div class="carousel-caption">
+		       	A Orillas del Rio Piedra Me Senté y Lloré
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="imgs/la-quinta-montaña.jpg" title="La Quinta Montaña">
+		      <div class="carousel-caption">
+		       	La Quinta Montaña
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="imgs/once-minutos.jpg" title="Once minutos">
+		      <div class="carousel-caption">
+		       	Once minutos
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="imgs/veronika-decide-morir.jpg" title="Veronika Decide Morir">
+		      <div class="carousel-caption">
+		       	Veronika Decide Morir
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="imgs/aleph.jpg" title="Aleph">
+		      <div class="carousel-caption">
+		       	Aleph
+		      </div>
+		    </div>
+
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#books" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		  </a>
+		  <a class="right carousel-control" href="#books" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		  </a>
+		</div>
+
+	</section>
+	<br>
+	<footer class="col-md-3 col-md-offset-1">
+		<h2>Comentarios</h2>
+		<form id="add-comment-form" class="form-inline">
+			<div class="form-group">
+				<input id="name" class="form-control" type="text" placeholder="Tu nombre">
+				<input id="comment" class="form-control" type="text" placeholder="Comenta!">
+				<button type="button" class="btn btn-primary" onclick="addComment()">Comentar</button>
+			</div>
+		</form>
+
+		<section id="comments">
+		</section>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
